@@ -1,8 +1,9 @@
 import type { Config } from "tailwindcss";
 import colors from "tailwindcss/colors";
-import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
 
 import svgToDataUri from "mini-svg-data-uri";
+
+import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
  
 
 /** @type {import('tailwindcss').Config} */
